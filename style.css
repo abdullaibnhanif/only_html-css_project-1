@@ -1,31 +1,79 @@
-body{
-    background-color: #F0F0F0;
-    margin-top: 0px;
+body {
+  background-color: #f0f0f0;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
 }
-.menu{
-    padding: 15px 80px;
-    /* width: 100%; */
-    /* height: 60px; */
+
+/** Start Heading Section */
+
+.menu {
+  padding: 15px 70px;
+  /* width: 100%; */
+  /* height: 60px; */
 }
 .navbar {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;   
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+  color: black;
 }
-.navbar-home{
-    display: flex;
-    align-items: center;
+.navbar-home {
+  display: flex;
+  align-items: center;
 }
-.web_name a{
-    font-family: 'Epilogue', sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
-    text-align: center;
-    line-height: 1.5;
+.web_name a {
+  font-family: "Epilogue", sans-serif;
+  font-size: 2rem;
+  /* font-weight: 500; */
+  text-align: center;
+  line-height: 2;
+  padding-left: 20px;
 }
+.navbar-home-icon {
+  padding-right: 70px;
+}
+.nav-item {
+  font-size: 22px;
+  list-style-type: none;
+  font-weight: bolder;
+}
+.iconfont-wrapper {
+  padding: 15px;
+  font-size: 25px;
+  /* font-weight: bold; */
+}
+
+/** End Heading Section */
+
+/** Section 2 Start */
+.section_2 {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  height: 615px;
+}
+.half-width img {
+  width: 100%;
+  height: 615px;
+  object-fit: cover;
+}
+.half-width-bg {
+  background-color: #ffff27;
+}
+.half-width p {
+  padding: 260px 40px 10px 40px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+}
+
+/** Section 2 End */
